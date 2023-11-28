@@ -1,8 +1,10 @@
 FROM alpine:edge
 
-ARG AUUID="e2830b64-bc03-4ba6-a96a-136042d7797f"
-ARG CADDYIndexPage="https://github.com/happyevero/Html/raw/main/CAFESTORE-html.zip"
+ARG AUUID="a3d0937b-02a6-4c65-bcce-d9c2ed7875ac"
+ARG CADDYIndexPage="https://github.com/happyevero/Html/raw/main/FitApp-html.zip"
+
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
+
 ARG PORT=8000
 
 ADD etc/Caddyfile /tmp/Caddyfile
